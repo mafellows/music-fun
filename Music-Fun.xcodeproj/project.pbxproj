@@ -11,6 +11,12 @@
 		2F2162E7FEA642E286F580E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AF0B5A1CE14D5597BCC94D /* UIKit.framework */; };
 		5CD852D0C1D141B8951710D9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E4972BD65E41EC9B494274 /* XCTest.framework */; };
 		857512A74EFC4405AFA65FBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A14ED923504094AABC3870 /* CoreGraphics.framework */; };
+		8F073AC91975DC82000B15B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F073AC81975DC82000B15B6 /* Main.storyboard */; };
+		8F073ACC1975DEE9000B15B6 /* FWMSongsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F073ACB1975DEE9000B15B6 /* FWMSongsTableViewController.m */; };
+		8F073ACF1975DEFE000B15B6 /* FWMGenreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F073ACE1975DEFE000B15B6 /* FWMGenreTableViewController.m */; };
+		8F073AD21975DF35000B15B6 /* FWMArtistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F073AD11975DF35000B15B6 /* FWMArtistsTableViewController.m */; };
+		8F073AD51975DF55000B15B6 /* FWMPerformanceYearTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F073AD41975DF55000B15B6 /* FWMPerformanceYearTableViewController.m */; };
+		8F073AD71975E1F1000B15B6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F073AD61975E1F1000B15B6 /* MediaPlayer.framework */; };
 		A366506514AF4926B4711AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DB375B0349427485FA6096 /* Foundation.framework */; };
 		F60AB202A2D74D0EB0B5AC70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFAC5A7C5BD4689BD41894F /* Images.xcassets */; };
 		FC6EA23B1C3D4F9981200DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6F93C04A7B4701BBDB131E /* main.m */; };
@@ -34,6 +40,16 @@
 		71315C246AD84D2C9064C2CC /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		72DB375B0349427485FA6096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8886E3433E9A4B819F11ED2A /* FWMAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FWMAppDelegate.m; sourceTree = "<group>"; };
+		8F073AC81975DC82000B15B6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8F073ACA1975DEE9000B15B6 /* FWMSongsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMSongsTableViewController.h; sourceTree = "<group>"; };
+		8F073ACB1975DEE9000B15B6 /* FWMSongsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWMSongsTableViewController.m; sourceTree = "<group>"; };
+		8F073ACD1975DEFE000B15B6 /* FWMGenreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMGenreTableViewController.h; sourceTree = "<group>"; };
+		8F073ACE1975DEFE000B15B6 /* FWMGenreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWMGenreTableViewController.m; sourceTree = "<group>"; };
+		8F073AD01975DF35000B15B6 /* FWMArtistsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMArtistsTableViewController.h; sourceTree = "<group>"; };
+		8F073AD11975DF35000B15B6 /* FWMArtistsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWMArtistsTableViewController.m; sourceTree = "<group>"; };
+		8F073AD31975DF55000B15B6 /* FWMPerformanceYearTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMPerformanceYearTableViewController.h; sourceTree = "<group>"; };
+		8F073AD41975DF55000B15B6 /* FWMPerformanceYearTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWMPerformanceYearTableViewController.m; sourceTree = "<group>"; };
+		8F073AD61975E1F1000B15B6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		AF71A6E818FF4A47A310580C /* Music-Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music-Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A14ED923504094AABC3870 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		DF6F93C04A7B4701BBDB131E /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F073AD71975E1F1000B15B6 /* MediaPlayer.framework in Frameworks */,
 				A366506514AF4926B4711AC1 /* Foundation.framework in Frameworks */,
 				2F2162E7FEA642E286F580E7 /* UIKit.framework in Frameworks */,
 				857512A74EFC4405AFA65FBF /* CoreGraphics.framework in Frameworks */,
@@ -159,6 +176,7 @@
 		7975A7E9830F4B73AFA3D572 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				8F073AC81975DC82000B15B6 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -185,6 +203,7 @@
 		B17EBCB0649C4A849E014B40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F073AD61975E1F1000B15B6 /* MediaPlayer.framework */,
 				81AA6B54E4754E7C8DB4925F /* iOS */,
 				F4E4972BD65E41EC9B494274 /* XCTest.framework */,
 			);
@@ -212,6 +231,14 @@
 		D0E7FFDF866D490B8F0E5272 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8F073AD31975DF55000B15B6 /* FWMPerformanceYearTableViewController.h */,
+				8F073AD41975DF55000B15B6 /* FWMPerformanceYearTableViewController.m */,
+				8F073AD01975DF35000B15B6 /* FWMArtistsTableViewController.h */,
+				8F073AD11975DF35000B15B6 /* FWMArtistsTableViewController.m */,
+				8F073ACD1975DEFE000B15B6 /* FWMGenreTableViewController.h */,
+				8F073ACE1975DEFE000B15B6 /* FWMGenreTableViewController.m */,
+				8F073ACA1975DEE9000B15B6 /* FWMSongsTableViewController.h */,
+				8F073ACB1975DEE9000B15B6 /* FWMSongsTableViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -321,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60AB202A2D74D0EB0B5AC70 /* Images.xcassets in Resources */,
+				8F073AC91975DC82000B15B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +390,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F073AD21975DF35000B15B6 /* FWMArtistsTableViewController.m in Sources */,
 				12D6D752C43D43908936C90D /* FWMAppDelegate.m in Sources */,
+				8F073ACC1975DEE9000B15B6 /* FWMSongsTableViewController.m in Sources */,
+				8F073ACF1975DEFE000B15B6 /* FWMGenreTableViewController.m in Sources */,
+				8F073AD51975DF55000B15B6 /* FWMPerformanceYearTableViewController.m in Sources */,
 				FC6EA23B1C3D4F9981200DFC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
